@@ -12,10 +12,10 @@
 # This program is tested on Ubuntu 16.04, please refere to relevant os guide to setup the packages      #
 # On Ubuntu 16.04                                                                                       #
 # $ sudo apt install python-pip                                                                         #
-# $ sudo apt install --upgrade pip                                                                      #
-# $ sudo apt install --upgrade awscli                                                                   #
-# $ sudo apt install --upgrade boto3                                                                    #
-# $ sudo apt install --upgrade pytz                                                                     #
+# $ sudo pip install --upgrade pip                                                                      #
+# $ sudo pip install --upgrade awscli                                                                   #
+# $ sudo pip install --upgrade boto3                                                                    #
+# $ sudo pip install --upgrade pytz                                                                     #
 #                                                                                                       #
 # Note: Create an IAM user on your AWS Console and note down the AccessID and Access Key                #
 # $ aws configure                                                                                       #
@@ -37,7 +37,7 @@
 # Destroy       DD-MMM-YYYY HH:MM                                                                       #
 #                                                                                                       #
 # For Eg:                                                                                               #
-# Shutdown      daily 18:00  will check and stop the machine daily at 6 PM IST                          #
+# Shutdown      daily 18:00  will check and stop the machine daily at 6 PM IST or                         #
 # Shutdown      03-Nov-2017 18:00  will check and stop the machine on 3 Nov 2017 at 6 PM IST            #
 # Destroy       03-Nov-2017 18:00  will check and terminate the machine on 3 Nov 2017 at 6 PM IST       #
 #                                                                                                       #
@@ -49,8 +49,8 @@
 
 
 import sys
-import boto3 #sudo pip install boto3
-import pytz  #sudo pip install pytz
+import boto3 
+import pytz  
 import syslog
 import datetime
 
