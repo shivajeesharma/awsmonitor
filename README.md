@@ -9,10 +9,10 @@
 # This program is tested on Ubuntu 16.04, please refere to relevant os guide to setup the packages      
 # On Ubuntu 16.04                                                                                       
 # $ sudo apt install python-pip                                                                         
-# $ sudo apt install --upgrade pip                                                                      
-# $ sudo apt install --upgrade awscli                                                                   
-# $ sudo apt install --upgrade boto3                                                                    
-# $ sudo apt install --upgrade pytz                                                                     
+# $ sudo pip install --upgrade pip                                                                      
+# $ sudo pip install --upgrade awscli                                                                   
+# $ sudo pip install --upgrade boto3                                                                    
+# $ sudo pip install --upgrade pytz                                                                     
 #                                                                                                       
 # Note: Create an IAM user on your AWS Console and note down the AccessID and Access Key                
 # $ aws configure                                                                                       
